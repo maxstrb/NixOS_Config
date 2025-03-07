@@ -36,8 +36,6 @@
           modules = [
             ./nixos/configuration.nix
 
-            catppuccin.nixosModules.catppuccin
-
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
